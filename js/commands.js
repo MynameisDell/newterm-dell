@@ -1,7 +1,7 @@
 const TWITTER = "https://twitter.com/Dell061297";
 const LINKEDIN = "https://www.linkedin.com/in/quangg-quangg-26ab45150/";
 const TELEGRAM = "https://t.me/MynameisDell/";
-const CHANNEL = "https://t.me/+R4wZFM9h44cxZjQ1";
+const GITHUB = "https://github.com/ealpizarp";
 const EMAIL = 'ericalpizar@gmail.com';
 const USERNAME = "Dell";
 
@@ -56,7 +56,7 @@ SOCIAL = [
   'twitter        <a href="' + TWITTER + '" target="_blank">twitter/' + USERNAME + '</a>',
   'linkedin       <a href="' + LINKEDIN + '" target="_blank">linkedin/' + USERNAME + "</a>",
   'telegram       <a href="' + TELEGRAM + '" target="_blank">telegram/' + USERNAME + '</a>',
-  'channel         <a href="' + channel + '" target="_blank">channel/' + USERNAME + "</a>",
+  'github         <a href="' + GITHUB + '" target="_blank">github/' + USERNAME + "</a>",
   "<br>"
 ];
 
