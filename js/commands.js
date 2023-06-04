@@ -2,7 +2,7 @@ const TWITTER = "https://twitter.com/Dell061297";
 const LINKEDIN = "https://www.linkedin.com/in/quangg-quangg-26ab45150/";
 const TELEGRAM = "https://t.me/MynameisDell/";
 const GITHUB = "https://github.com/MynameisDell";
-const EMAIL = 'ericalpizar@gmail.com';
+const EMAIL = 'dvq273665536@gmail.com';
 const USERNAME = "Dell";
 
 // const ABOUT = [
