@@ -190,7 +190,7 @@ MOBILE_EDUCATION_INFO = [
 
 
 TERMINAL_INFO = [
-'Welcome to my interactive web terminal portafolio',
+'Welcome to my interactive web terminal profile',
 "For a list of available commands, type <span class=\"command\">'help'</span>."
 ]
 
