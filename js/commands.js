@@ -55,7 +55,7 @@ SOCIAL = [
   "<br>",
   'twitter        <a href="' + TWITTER + '" target="_blank">twitter/' + USERNAME + '</a>',
   'linkedin       <a href="' + LINKEDIN + '" target="_blank">linkedin/' + USERNAME + "</a>",
-  'telegram      <a href="' + TELEGRAM + '" target="_blank">telegram/' + USERNAME + '</a>',
+  'telegram       <a href="' + TELEGRAM + '" target="_blank">telegram/' + USERNAME + '</a>',
   'github         <a href="' + GITHUB + '" target="_blank">github/' + USERNAME + "</a>",
   "<br>"
 ];
