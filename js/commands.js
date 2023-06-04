@@ -1,6 +1,6 @@
 const TWITTER = "https://twitter.com/Dell061297";
 const LINKEDIN = "https://www.linkedin.com/in/quangg-quangg-26ab45150/";
-const TELEGRAM = "https://www.instagram.com/_ealpizarp/";
+const TELEGRAM = "https://t.me/MynameisDell/";
 const GITHUB = "https://github.com/ealpizarp";
 const EMAIL = 'ericalpizar@gmail.com';
 const USERNAME = "Dell";
