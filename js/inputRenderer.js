@@ -9,7 +9,7 @@
 
 
 const MOVE_STEP = 10;
-const BASE_ROOT = "guest@ealpizarp.com:~$ ";
+const BASE_ROOT = "MynameisDell@Terminal:~$ ";
 
 const cursor = document.getElementById("cursor");
 const typerElement = document.getElementById("typer");
