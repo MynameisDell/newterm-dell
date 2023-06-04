@@ -3,7 +3,7 @@ const LINKEDIN = "https://www.linkedin.com/in/eric-alpizar-133567169/";
 const INSTAGRAM = "https://www.instagram.com/_ealpizarp/";
 const GITHUB = "https://github.com/ealpizarp";
 const EMAIL = 'ericalpizar@gmail.com';
-const USERNAME = "ealpizarp";
+const USERNAME = "Dell";
 
 // const ABOUT = [
 //   "<br>",
