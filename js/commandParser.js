@@ -151,8 +151,10 @@ function renderLine(text, style, time, asciiArt=false) {
 
 function getDate() {
   const date = moment().utcOffset(7);
-  const formattedDate = date.format('Z (ZZ)') + ' (Giờ Đông Dương)';
-  renderLine(formattedDate, 'color margin');
+  const formattedDate = date.format('dddd, DD/MM/YYYY');
+  const formattedTimezone = date.format('Z (ZZ)') + ' (Giờ Đông Dương)';
+  const output = `Thứ: ${formattedDate}, Múi giờ: ${formattedTimezone}`;
+  renderLine(output, 'color margin');
 }
 
 function getWeekday(date) {
