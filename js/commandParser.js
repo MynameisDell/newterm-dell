@@ -43,6 +43,7 @@ function processCommand(command) {
     case "projects":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(PROJECTS, 80);
+      addLine('Opening Projects...', 'color2', 0);
       break;
     case "email":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
