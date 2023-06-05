@@ -164,6 +164,13 @@ function formatText(text) {
   return text.replaceAll(doubleSpace, doubleNoBreakingSpace);
 }
 
+function commander(cmd) {
+  switch (cmd) {
+     case 'date':
+      getDate();
+      break;
+   }
+ }
 /**
  * Creates a new line element with the given text and style.
  * @param {string} text - The text of the line.
