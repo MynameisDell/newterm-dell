@@ -22,7 +22,7 @@ const USERNAME = "Dell";
 
 const ABOUT = [
   "<br>",
-  "Hello there!👋" ,
+  "Hello I am Dell!👋" ,
   "              ",
   "I'm an ordinary Programmer & on this Earth. ",
   "Specifically, I am an Asian, ",
