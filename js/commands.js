@@ -52,7 +52,7 @@ SOCIAL = [
 
 PROJECTS = [
   "<br>",
-  "<strong>Check out some of my other projects",
+  "<strong>Check out some of my other Channel",
 ];
 
 COMMAND_LIST = [
