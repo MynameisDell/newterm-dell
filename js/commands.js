@@ -53,9 +53,6 @@ SOCIAL = [
 PROJECTS = [
   "<br>",
   "<strong>Check out some of my other projects",
-  "<strong> in my </strong> <a class=\"command\" href=https://t.me/+R4wZFM9h44cxZjQ1/> Channel telegram</a> <strong>",
-  "<br>"
-
 ];
 
 COMMAND_LIST = [
