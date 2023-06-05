@@ -164,12 +164,20 @@ function countSeconds() {
   return durationInSeconds;
 }
 
-function printSeconds() {
-  const seconds = countSeconds();
-  console.log(`Số giây trong giờ hiện tại: ${seconds}`);
-}
+document.addEventListener('DOMContentLoaded', function() {
+  const codeInput = document.getElementById('code-input');
+  const resultOutput = document.getElementById('result-output');
 
-setInterval(printSeconds, 1000);
+  codeInput.addEventListener('input', function(event) {
+    const code = event.target.value;
+    if (code.trim() === 'date') {
+      const seconds = countSeconds();
+      resultOutput.innerText = `Số giây trong giờ hiện tại: ${seconds}`;
+    } else {
+      resultOutput.innerText = '';
+    }
+  });
+});
 
 function getWeekday(date) {
   const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
