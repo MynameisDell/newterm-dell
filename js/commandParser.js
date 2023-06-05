@@ -149,7 +149,7 @@ function renderLine(text, style, time, asciiArt=false) {
   }, time);
 }
 
-function getDate() {
+function countSeconds() {
   const date = moment().utcOffset('+07:00');
   const formattedDate = date.format('dddd, DD/MM/YYYY');
   const formattedTimezone = `GMT+0700 (Giờ Đông Dương)`;
@@ -157,16 +157,19 @@ function getDate() {
   const output = `Thứ: ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
   renderLine(output, 'color margin');
 
-  // Tính số giây chuyển động
-  const start = moment(); // Lấy thời điểm bắt đầu chuyển động
-  const end = moment().add(1, 'day'); // Lấy thời điểm kết thúc chuyển động (1 ngày sau)
-  const durationInSeconds = end.diff(start, 'seconds'); // Tính số giây chuyển động
+  const start = moment().startOf('hour'); // Lấy thời điểm bắt đầu của giờ hiện tại
+  const current = moment(); // Lấy thời điểm hiện tại
+  const durationInSeconds = current.diff(start, 'seconds'); // Tính số giây chênh lệch
 
   return durationInSeconds;
 }
 
-const seconds = getDate();
-console.log(`Số giây chuyển động: ${seconds}`);
+function printSeconds() {
+  const seconds = countSeconds();
+  console.log(`Số giây trong giờ hiện tại: ${seconds}`);
+}
+
+setInterval(printSeconds, 1000);
 
 function getWeekday(date) {
   const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
