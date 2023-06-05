@@ -55,7 +55,7 @@ function processCommand(command) {
       break;
     case 'date':
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
-      getDate();
+      getDate(DATE, 80);
       break;
     case "clear":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
