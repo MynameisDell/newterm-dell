@@ -1,7 +1,7 @@
 const TWITTER = "https://twitter.com/Dell061297";
 const LINKEDIN = "https://www.linkedin.com/in/quangg-quangg-26ab45150/";
 const TELEGRAM = "https://t.me/MynameisDell/";
-const GITHUB = "https://github.com/MynameisDell";
+const REPO = "https://newtermdell.vercel.app/";
 const EMAIL = 'dvq273665536@gmail.com';
 const USERNAME = "Dell";
 
@@ -45,7 +45,7 @@ SOCIAL = [
   'twitter        <a href="' + TWITTER + '" target="_blank">twitter/' + USERNAME + '</a>',
   'linkedin       <a href="' + LINKEDIN + '" target="_blank">linkedin/' + USERNAME + "</a>",
   'telegram       <a href="' + TELEGRAM + '" target="_blank">telegram/' + USERNAME + '</a>',
-  'github         <a href="' + GITHUB + '" target="_blank">github/' + USERNAME + "</a>",
+  'repo           <a href="' + REPO + '" target="_blank">repo/' + USERNAME + "</a>",
   "<br>"
 ];
 
