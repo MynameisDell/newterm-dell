@@ -151,9 +151,11 @@ function renderLine(text, style, time, asciiArt=false) {
 
 function getDate() {
   const date = new Date();
-  const timezoneOffset = date.getTimezoneOffset() / 60;
-  const timezone = timezoneOffset >= 0 ? '+' + timezoneOffset : timezoneOffset;
-  const dateString = `${getWeekday(date)}, ${date.getDate()} ${getMonth(date)} ${date.getFullYear()}, ${formatTime(date)} (GMT${timezone})`;
+  const options = {
+    timeZone: 'Asia/Bangkok',
+    timeZoneName: 'long',
+  };
+  const dateString = date.toLocaleString('en-US', options);
   renderLine(dateString, "color margin");
 }
 
