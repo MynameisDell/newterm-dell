@@ -61,6 +61,9 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(DIRECTORIES, 80);
       break;
+    case 'date':
+      getDate();
+      break;
     case "sudo":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(SUDO, 80);
@@ -164,17 +167,6 @@ function formatText(text) {
   return text.replaceAll(doubleSpace, doubleNoBreakingSpace);
 }
 
-function commander(cmd) {
-  const args = formatCommand(command);
-
-  renderLine(BASE_ROOT + command, "no-animation", 0);
-
-  switch (args[0]) {
-     case 'date':
-      getDate();
-      break;
-   }
- }
 /**
  * Creates a new line element with the given text and style.
  * @param {string} text - The text of the line.
