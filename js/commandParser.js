@@ -1,4 +1,3 @@
-
 const mql = window.matchMedia("(max-width: 600px)");
 
 window.onload = init;
@@ -55,7 +54,7 @@ function processCommand(command) {
       break;
     case 'date':
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
-      getDate(DATE, 80);
+      renderMultipleLines(DATE, 80);
       break;
     case "clear":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
