@@ -156,7 +156,17 @@ function getDate() {
   const formattedTime = date.format('HH:mm:ss');
   const output = `Thứ: ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
   renderLine(output, 'color margin');
+
+  // Tính số giây chuyển động
+  const start = moment(); // Lấy thời điểm bắt đầu chuyển động
+  const end = moment().add(1, 'day'); // Lấy thời điểm kết thúc chuyển động (1 ngày sau)
+  const durationInSeconds = end.diff(start, 'seconds'); // Tính số giây chuyển động
+
+  return durationInSeconds;
 }
+
+const seconds = getDate();
+console.log(`Số giây chuyển động: ${seconds}`);
 
 function getWeekday(date) {
   const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
