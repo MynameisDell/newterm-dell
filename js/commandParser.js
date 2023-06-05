@@ -219,10 +219,6 @@ function clearInput(inputElement) {
   inputElement.value = "";
 }
 
-function getDate() {
-  loopLines([new Date().toString()], 'color margin', 80);
-}
-
 /**
  * Renders multiple lines with a delay between each one.
  * @param {Array} lines - Array of strings to render as separate lines.
