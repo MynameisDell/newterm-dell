@@ -213,6 +213,9 @@ function clearInput(inputElement) {
   inputElement.value = "";
 }
 
+function getDate(lines, timeout) {
+  loopLines(lines, "color margin", timeout);
+}
 
 /**
  * Renders multiple lines with a delay between each one.
