@@ -149,11 +149,12 @@ function renderLine(text, style, time, asciiArt=false) {
   }, time);
 }
 
-function getDate() {
+ffunction getDate() {
   const date = moment().utcOffset(7);
   const formattedDate = date.format('dddd, DD/MM/YYYY');
   const formattedTimezone = date.format('Z (ZZ)') + ' (Giờ Đông Dương)';
-  const output = `Thứ: ${formattedDate}, Múi giờ: ${formattedTimezone}`;
+  const formattedTime = date.format('HH:mm:ss');
+  const output = `Thứ: ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
   renderLine(output, 'color margin');
 }
 
