@@ -216,4 +216,14 @@ body {
       font-size: small;
     }
 
+    .console-output {
+      background-color: #f1f1f1;
+      padding: 10px;
+      font-family: monospace;
+    }
+
+    .console-line {
+      white-space: pre-wrap;
+}
+
   }

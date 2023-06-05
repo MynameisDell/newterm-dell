@@ -161,6 +161,12 @@ function getDate() {
   const formattedTime = date.format('HH:mm:ss');
   const output = `Thứ: ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
   renderLine(output, 'color margin');
+
+  const consoleOutput = document.getElementById('console-output');
+  const newLine = document.createElement('div');
+  newLine.classList.add('console-line');
+  newLine.textContent = output;
+  consoleOutput.appendChild(newLine);
 }
 
 function getWeekday(date) {
