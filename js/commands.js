@@ -55,6 +55,7 @@ const ABOUT_MOBILE = [
   "                             ",
   "You can find me through social networks: 💫",
   "<br>"
+]
 
 SOCIAL = [
   "<br>",
