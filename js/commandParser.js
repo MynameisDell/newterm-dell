@@ -159,7 +159,7 @@ function getDate() {
   const formattedDate = date.format('dddd, DD/MM/YYYY');
   const formattedTimezone = `GMT+0700 (Giờ Đông Dương)`;
   const formattedTime = date.format('HH:mm:ss');
-  const output = ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
+  const output = ` ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
   renderLine(output, 'color margin');
 }
 
