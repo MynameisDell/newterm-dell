@@ -152,8 +152,8 @@ function renderLine(text, style, time, asciiArt=false) {
 function getDate() {
   const date = new Date();
   const options = {
-    timeZone: 'Asia/Bangkok',
-    timeZoneName: 'long',
+    timeZone: 'Etc/GMT+7',
+    timeZoneName: 'short',
   };
   const dateString = date.toLocaleString('en-US', options);
   renderLine(dateString, "color margin");
