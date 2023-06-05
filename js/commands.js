@@ -95,7 +95,6 @@ COMMAND_LIST = [
   '<span class="command">social</span>         Display social networks',
   '<span class="command">education</span>      Show my education',
   '<span class="command">date</span>           Display the actual date',
-  '<span class="command">date</span>           Display the actual date',
   '<span class="command">projects</span>       View some of my projects',
   '<span class="command">history</span>        Show command history',
   '<span class="command">email</span>          Feel free to reach out',

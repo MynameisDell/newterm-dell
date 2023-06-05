@@ -53,10 +53,6 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderBanner();
       break;
-    case "curriculum":
-      commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
-      newTab("https://ealpizarp.github.io/erick-alpizar-cv/");
-      break;
     case 'date':
       getDate();
       break;
