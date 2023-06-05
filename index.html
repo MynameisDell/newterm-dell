@@ -5,13 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
     <title>Dell-Terminal</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/style.css"
-    />
-    <link rel="icon" type="image/png" href="img/man.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/man.png" />
     <script defer src="js/commands.js"></script>
     <script defer src="js/inputRenderer.js"></script>
     <script defer type="module" src="js/commandParser.js"></script>
@@ -28,17 +23,35 @@
     </div>
     <p><strong>in my</strong> <a class="command" href="#" onclick="openTelegram()">Chanel telegram</a> <strong></p>
     <div id="command" onclick="focusOnTextArea()">
-      <textarea
-        type="text"
-        id="texter"
-        onkeydown="moveCursor(this.value.length, event)"
-        autofocus
-      ></textarea>
+      <textarea type="text" id="texter" onkeydown="moveCursor(this.value.length, event)" autofocus></textarea>
       <div id="liner">
         <span id="typer"></span><b class="cursor" id="cursor"></b>
-        <span id="mobileInput"><input type="text" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="off" inputmode="text" ></span>
+        <span id="mobileInput"><input type="text" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="off" inputmode="text"></span>
       </div>
     </div>
 
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
   </body>
 </html>
