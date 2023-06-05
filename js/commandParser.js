@@ -165,7 +165,11 @@ function formatText(text) {
 }
 
 function commander(cmd) {
-  switch (cmd) {
+  const args = formatCommand(command);
+
+  renderLine(BASE_ROOT + command, "no-animation", 0);
+
+  switch (args[0]) {
      case 'date':
       getDate();
       break;
