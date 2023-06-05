@@ -26,7 +26,8 @@ const ABOUT = [
   "              ",
   "I'm an ordinary Programmer & on this Earth. ",
   "Specifically, I am an Asian, ",
-  "more simply I was born in a country in Southeast Asia and especially I am Vietnamese. 🧑‍💻",
+  "more simply I was born in a country in Southeast",
+  "Asia and especially I am Vietnamese. 🧑‍💻",
   "                            ",
   "                            ",
   "My hobby is traveling all over the country,", 
@@ -38,24 +39,6 @@ const ABOUT = [
   "<br>"
 ];
 
-const ABOUT_MOBILE = [
-  "<br>",
-  "Hello I am Dell!👋" ,
-  "              ",
-  "I'm an ordinary Programmer & on this Earth. ",
-  "Specifically, I am an Asian, ",
-  "more simply I was born in a country in ",
-  "Southeast Asia and especially I am Vietnamese. 🧑‍💻",
-  "                            ",
-  "                            ",
-  "My hobby is traveling all over the country,", 
-  "that's why I decided to learn to code..",
-  "hone my skills in algorithms, math",
-  "                             ",
-  "                             ",
-  "You can find me through social networks: 💫",
-  "<br>"
-  ]
 
 SOCIAL = [
   "<br>",
