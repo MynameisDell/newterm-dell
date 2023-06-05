@@ -151,7 +151,9 @@ function renderLine(text, style, time, asciiArt=false) {
 
 function getDate() {
   const date = new Date();
-  const dateString = `${getWeekday(date)}, ${date.getDate()} ${getMonth(date)} ${date.getFullYear()}, ${formatTime(date)}`;
+  const timezoneOffset = date.getTimezoneOffset() / 60;
+  const timezone = timezoneOffset >= 0 ? '+' + timezoneOffset : timezoneOffset;
+  const dateString = `${getWeekday(date)}, ${date.getDate()} ${getMonth(date)} ${date.getFullYear()}, ${formatTime(date)} (GMT${timezone})`;
   renderLine(dateString, "color margin");
 }
 
