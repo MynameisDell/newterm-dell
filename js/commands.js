@@ -149,31 +149,24 @@ SUDO = [
 ]
 
 EDUCATION_INFO = [
-  "<br><strong>B.sc in Computer Science and Engineering</strong>",
-  "Costa Rica Institute of Technology  |  2020 - 2024",
-  "Honor student with a perfect 4.0 GPA (four point scale)",
+  "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
+  "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
   "                                                  ",
-  "<strong>B.sc in Systems Analysis</strong>",
-  "Costa Rica National University  |  2019 - 2020",
-  "                                                  ",
-  "<strong>Industrial Electronics Technician</strong>",
-  "Colegio Tecnico Profesional CIT  |  2015 - 2018",
+  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea, to pay quickly in Vietnam</strong>",
+  "Working as a programmer for a foreign company.",
+  "                                               ",
+  "<strong>Currently doing many jobs to earn a living, in which going to other people is a side job.</strong>",
   "<br>"
 ]
 
 MOBILE_EDUCATION_INFO = [
-  "<br><strong>B.sc. Computer Science and Engineering</strong>",
-  "Costa Rica Institute of Technology",
-  "2020 - 2024",
-  "Honor student with a perfect 4.0 GPA",
+  "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
+  "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
   "<br>",
-  "<strong>B.sc. Systems Analysis</strong>",
-  "Costa Rica National University",
-  "2019 - 2020",
+  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea, to pay quickly in Vietnam</strong>",
+  "Working as a programmer for a foreign company",
   "<br>",
-  "<strong>Industrial Electronics Technician</strong>",
-  "Colegio Tecnico Profesional CIT",
-  "2015 - 2018",
+  "<strong>Currently doing many jobs to earn a living, in which going to other people is a side job</strong>",
   "<br>"
 ]
 
