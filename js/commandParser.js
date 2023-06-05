@@ -52,10 +52,6 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderBanner();
       break;
-    case 'date':
-      commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
-      renderMultipleLines(DATE, 80);
-      break;
     case "clear":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       setTimeout( () =>

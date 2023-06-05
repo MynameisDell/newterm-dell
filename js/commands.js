@@ -184,7 +184,7 @@ TERMINAL_INFO = [
 ]
 
 TERMINAL_INFO_MOBILE = [
-  'Welcome to my terminal web portafolio!',
+  'Welcome to my terminal web profile!',
   "                                 ",
   "For a list of available commands,", 
   "type <span class=\"command\">'help'</span>.",
