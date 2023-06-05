@@ -40,7 +40,7 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(SOCIAL, 80);
       break;
-    case "telegram":
+    case "projects":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(PROJECTS, 80);
       break;
