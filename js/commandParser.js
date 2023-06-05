@@ -213,8 +213,8 @@ function clearInput(inputElement) {
   inputElement.value = "";
 }
 
-function getDate(lines, timeout) {
-  loopLines(lines, "color margin", timeout);
+function getDate() {
+  loopLines([new Date().toString()], 'color margin', 80);
 }
 
 /**
