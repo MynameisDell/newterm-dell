@@ -149,6 +149,25 @@ function renderLine(text, style, time, asciiArt=false) {
   }, time);
 }
 
+function getDate() {
+  const date = moment().utcOffset('+07:00');
+  const formattedDate = date.format('dddd, DD/MM/YYYY');
+  const formattedTimezone = `GMT+0700 (Giờ Đông Dương)`;
+  const formattedTime = date.format('HH:mm:ss');
+  const output = `Thứ: ${formattedDate}, Giờ: ${formattedTime}, Múi giờ: ${formattedTimezone}`;
+  renderLine(output, 'color margin');
+}
+
+function getWeekday(date) {
+  const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  return weekdays[date.getDay()];
+}
+
+function getMonth(date) {
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  return months[date.getMonth()];
+}
+
 function countSeconds() {
   const date = moment().utcOffset('+07:00');
   const formattedDate = date.format('dddd, DD/MM/YYYY');
@@ -178,16 +197,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
-function getWeekday(date) {
-  const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  return weekdays[date.getDay()];
-}
-
-function getMonth(date) {
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  return months[date.getMonth()];
-}
 
 function formatTime(date) {
   let hours = date.getHours();
