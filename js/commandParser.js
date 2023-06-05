@@ -57,6 +57,9 @@ function processCommand(command) {
       setTimeout( () =>
       contentHook = clearTerminal(terminal, contentHook), 1)
       break;
+    case 'cls':
+      cls();
+      break;
     case "ls":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(DIRECTORIES, 80);
