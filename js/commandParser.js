@@ -309,8 +309,6 @@ function formatCommand(command) {
   return command.split(" ");
 }
 
-function getDate() {
-  loopLines([new Date().toString()], 'color margin', 80);
 
 /**
 
