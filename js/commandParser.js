@@ -54,6 +54,7 @@ function processCommand(command) {
       renderBanner();
       break;
     case 'date':
+      commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       getDate();
       break;
     case "clear":
