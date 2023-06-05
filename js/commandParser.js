@@ -62,6 +62,7 @@ function processCommand(command) {
       renderMultipleLines(DIRECTORIES, 80);
       break;
     case 'date':
+      commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       getDate();
       break;
     case "sudo":
@@ -128,7 +129,6 @@ mobileInput.addEventListener("keydown", (event) => {
 });
 
 
-
 /**
  * Adds a new line to the terminal output.
  * @param {string} text - The text to add.
@@ -147,6 +147,40 @@ function renderLine(text, style, time, asciiArt=false) {
     insertLine(next, contentHook);
     scrollToBottom();
   }, time);
+}
+
+function getDate() {
+  const date = new Date();
+  const dateString = `${getWeekday(date)}, ${date.getDate()} ${getMonth(date)} ${date.getFullYear()}, ${formatTime(date)}`;
+  renderLine(dateString, "color margin");
+}
+
+function getWeekday(date) {
+  const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  return weekdays[date.getDay()];
+}
+
+function getMonth(date) {
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  return months[date.getMonth()];
+}
+
+function formatTime(date) {
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let seconds = date.getSeconds();
+
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+
+  return hours + ":" + minutes + ":" + seconds;
 }
 
 /**
