@@ -5,7 +5,7 @@
   --secundaryTextColor: #e5e512;
   --highlightTextColor: #0fa8cd;
   --white: #fff;
-  --baseDirectory: "MynameisDell<span class='red'>@</span>Terminal<span class='green'>:</span><span class='yellow'>~$</span>";
+  --baseDirectory: `MynameisDell<span class="red">@</span>Terminal<span class="green">:</span><span class="yellow">~$</span>`;
   --windowControlsColor: #ddd;
   --windowControlsHoverColor: #aaa;
   --windowControlsContentHoverColor: #fff;
@@ -66,7 +66,7 @@ b {
 
 .base-directory::before {
   color: var(--highlightTextColor);
-  content: "MynameisDell";
+  content: var(--baseDirectory);
 }
 
 .base-directory .red {
