@@ -6,6 +6,8 @@
   --highlightTextColor: #0fa8cd;
   --white: #fff;
   --baseDirectory: "MynameisDell@Terminal:~$";
+  --windowControlsColor: #ddd;
+  --windowControlsHoverColor: #aaa;
 }
 
 /* Global styles */
@@ -48,6 +50,64 @@ textarea {
 b {
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  height: 100%;
+  color: var(--primaryTextColor);
+  text-shadow: 0 0 1px var(--secundaryTextColor);
+  background: var(--background);
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+
+/* ... (phần CSS trước đó) ... */
+
+/* Window controls */
+.window-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 26px;
+  width: 100%;
+  background-color: var(--windowControlsColor);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.window-control {
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  background-color: var(--windowControlsColor);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.window-control:hover {
+  background-color: var(--windowControlsHoverColor);
+}
+
+.window-control.close {
+  background-color: #ff5f56;
+}
+
+.window-control.minimize {
+  background-color: #ffbd2e;
+}
+
+.window-control.fullscreen {
+  background-color: #27c93f;
 }
 
 /* Cursor Start */
