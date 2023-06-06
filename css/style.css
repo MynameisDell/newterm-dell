@@ -92,22 +92,27 @@ body {
   background-color: var(--windowControlsColor);
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--primaryTextColor);
 }
 
 .window-control:hover {
   background-color: var(--windowControlsHoverColor);
 }
 
-.window-control.close {
-  background-color: #ff5f56;
+.window-control.close::before {
+  content: "x";
 }
 
-.window-control.minimize {
-  background-color: #ffbd2e;
+.window-control.minimize::before {
+  content: "\25A1";
 }
 
-.window-control.fullscreen {
-  background-color: #27c93f;
+.window-control.fullscreen::before {
+  content: "\2015";
 }
 
 /* Cursor Start */
