@@ -1,5 +1,7 @@
-body {
-    background-color: #fee440;
+
+/* :root */
+:root {
+  --background-color: #fee440;
 }
 svg {
     position: fixed;
@@ -30,10 +32,6 @@ a img.icon {
     height: 1em;
     margin: 0 0 -0.1em 0.3em;
 }
-
-/* :root */
-:root {
-  --background: #123;
   --primaryTextColor: #e5e5e5;
   --secundaryTextColor: #e5e512;
   --highlightTextColor: #0fa8cd;
