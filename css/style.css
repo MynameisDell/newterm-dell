@@ -25,6 +25,42 @@ body {
   background: var(--background);
   font-family: cursor, monospace;
   overflow-x: hidden;
+  position: relative; /* Thêm thuộc tính position relative */
+}
+
+/* Hiệu ứng sao băng */
+@keyframes shootingStar {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.star {
+  position: absolute;
+  top: -50px; /* Điểm bắt đầu từ trên cùng của màn hình */
+  left: -10px; /* Điểm bắt đầu từ trái của màn hình */
+  width: 2px;
+  height: 2px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 50%, rgba(255, 255, 255, 0) 100%);
+  animation: shootingStar 3s linear infinite; /* Điều chỉnh tốc độ rơi */
+}
+
+/* Thêm sao băng vào background */
+@for $i from 1 through 30 { /* Số sao băng */
+  .star:nth-child(#{$i}) {
+    top: random() * 100%; /* Random vị trí xuất hiện từ trên cùng của màn hình */
+    left: random() * 100%; /* Random vị trí xuất hiện từ trái của màn hình */
+    animation-delay: random() * 10s; /* Random thời gian delay */
+  }
 }
 
 ::selection {
@@ -67,19 +103,16 @@ b {
   text-decoration: blink;
   animation: blinker 1s linear infinite;
 }
-
 @keyframes blinker {
   50% {
     opacity: 0;
   }
 }
-
 #command {
   cursor: text;
   height: 50px;
   color: var(--secundaryTextColor);
 }
-
 #liner {
   line-height: 1.3em;
   margin-top: -2px;
@@ -87,7 +120,6 @@ b {
   animation-delay: 1.2s;
   opacity: 0;
 }
-
 #liner::before {
   color: var(--highlightTextColor);
   content: var(--baseDirectory);
@@ -103,6 +135,7 @@ b {
 }
 /* Cursor End */
 
+/* Paragraph Styles */
 p {
   display: block;
   line-height: 1.3em;
@@ -145,7 +178,7 @@ p {
 
 .command {
   color: var(--secundaryTextColor);
-  text-shadow: 0 0 5px var(--secundaryTextColor); 
+  text-shadow: 0 0 5px var(--secundaryTextColor);
 }
 
 .error {
