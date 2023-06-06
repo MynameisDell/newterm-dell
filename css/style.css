@@ -92,11 +92,6 @@ body {
     content: var(--baseDirectory);
   }
 
-  .console-line {
-  white-space: pre-wrap;
-  text-indent: 20px; /* Điều chỉnh giá trị thụt lề tùy ý */
-  }
-  
   @keyframes show {
     from {
       opacity: 0;
