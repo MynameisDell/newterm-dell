@@ -9,6 +9,8 @@
   --windowControlsColor: #ddd;
   --windowControlsHoverColor: #aaa;
   --windowControlsContentHoverColor: #fff;
+  --windowControlsContentColor: var(--primaryTextColor);
+  --windowControlsContentHoverColor: var(--background);
 }
 
 /* Global styles */
@@ -104,6 +106,12 @@ body {
 .window-control:hover {
   background-color: var(--windowControlsHoverColor);
   transform: scale(1.2);
+}
+
+.window-control::before {
+  position: absolute;
+  content: attr(data-icon);
+  color: var(--windowControlsContentColor);
 }
 
 .window-control.close {
