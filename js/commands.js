@@ -88,7 +88,8 @@ const BANNER = [
 "       |_|  |_||_/ \\_\\| |_|  |_||_|  |_||______|",
 ];
 
-
+const italicBanner = BANNER.map(line => `*${line}*`);
+console.log(italicBanner.join("\n"));
 
 DIRECTORIES = [ 
 "<br>",
