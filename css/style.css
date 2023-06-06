@@ -103,16 +103,19 @@ body {
   background-color: var(--windowControlsHoverColor);
 }
 
-.window-control.close::before {
-  content: "x";
+.window-control.close {
+  background-color: #ff5f56;
+  content: '×';
 }
 
-.window-control.minimize::before {
-  content: "\25A1";
+.window-control.minimize {
+  background-color: #ffbd2e;
+  content: '□';
 }
 
-.window-control.fullscreen::before {
-  content: "\2015";
+.window-control.fullscreen {
+  background-color: #27c93f;
+  content: '─';
 }
 
 /* Cursor Start */
