@@ -5,7 +5,7 @@
   --secundaryTextColor: #e5e512;
   --highlightTextColor: #0fa8cd;
   --white: #fff;
-  --baseDirectory: `MynameisDell<span class="red">@</span>Terminal<span class="green">:</span><span class="yellow">~$</span>`;
+  --baseDirectory: "MynameisDell@Terminal:~$";
   --windowControlsColor: #ddd;
   --windowControlsHoverColor: #aaa;
   --windowControlsContentHoverColor: #fff;
@@ -53,37 +53,6 @@ textarea {
 b {
   font-weight: bold;
   text-decoration: underline;
-}
-
-/* Base Directory */
-.base-directory {
-  line-height: 1.3em;
-  margin-top: -2px;
-  animation: show 0.5s ease forwards;
-  animation-delay: 1.2s;
-  opacity: 0;
-}
-
-.base-directory::before {
-  color: var(--highlightTextColor);
-  content: var(--baseDirectory);
-}
-
-.base-directory .red {
-  color: red;
-}
-
-.base-directory .green {
-  color: lime;
-}
-
-.base-directory .yellow {
-  color: yellow;
-}
-
-.base-directory::after {
-  content: '\A';
-  white-space: pre;
 }
 
 /* Window controls */
