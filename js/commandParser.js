@@ -70,6 +70,9 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(WHOAMI, 80);
       break;
+    case 'pwd':
+      addLine('localhost/sujay/terminal', 'color3', 0);
+      break;
     case 'date':
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       getDate();

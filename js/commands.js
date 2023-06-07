@@ -69,6 +69,7 @@ COMMAND_LIST = [
   '<span class="command">clear | cls</span>    Clear terminal',
   '<span class="command">echo</span>           Print any give string',
   '<span class="command">ls</span>             List directory content',
+  '<span class="command">pwd</span>            Print present working directory',
   '<span class="command">cd &lt;directory&gt</span> Change directory',
   '<span class="command">help</span>           Display all commands',
   "<br>",
