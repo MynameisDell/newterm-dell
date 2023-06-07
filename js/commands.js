@@ -135,16 +135,26 @@ MOBILE_EDUCATION_INFO = [
 
 TERMINAL_INFO = [
 'Welcome to my interactive web terminal profile',
+'As a passionate user and love the Linux operating system.',
+'Especially the terminal.',
+'So I came up with the idea to develop my personal website terminal style.',
 "For a list of available commands, type <span class=\"command\">'help'</span>."
+"Version (4.0)",
+
 ]
 
 TERMINAL_INFO_MOBILE = [
   'Welcome to my terminal web profile!',
+  'A user who loves the Linux operating system.',
+  'Especially the terminal.',
+  'So I came up with a development idea',
+  'my personal website',
+  'terminal style.',
   "                                 ",
   "For a list of available commands,", 
   "type <span class=\"command\">'help'</span>.",
   "                                          ",
-  "Version (1.0)",
+  "Version (4.0)",
   "                                          "
   ]
 
