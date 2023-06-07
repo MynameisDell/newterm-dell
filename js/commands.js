@@ -123,12 +123,15 @@ CHANNEL_INFO = [
 
 MOBILE_CHANNEL_INFO = [
   "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
-  "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
+  "Ranked good in Accounting Faculty", 
+  "majoring in Accounting and Auditing",
   "<br>",
-  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea, to pay quickly in Vietnam</strong>",
+  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea",
+  "to pay quickly in Vietnam</strong>",
   "Working as a programmer for a foreign company",
   "<br>",
-  "<strong>Currently doing many jobs to earn a living, in which going to other people is a side job</strong>",
+  "<strong>Currently doing many jobs to earn a living",
+  "in which going to other people is a side job</strong>",
   "<br>"
 ]
 
