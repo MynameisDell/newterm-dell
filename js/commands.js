@@ -99,6 +99,8 @@ DIRECTORIES = [
 
 WHOAMI = [
 "<br>",
+"                                   ",
+" MynameisDell - Dell",
  "        .n.                     |",
  "       /___\\          _.---.  \\ _ /",
  "       [|||]         (_._ ) )--;_) =-",
