@@ -69,21 +69,16 @@ b {
   content: var(--baseDirectory);
 }
 
-.base-directory .red {
+.red {
   color: red;
 }
 
-.base-directory .green {
+.green {
   color: lime;
 }
 
-.base-directory .yellow {
+.yellow {
   color: yellow;
-}
-
-.base-directory::after {
-  content: '\A';
-  white-space: pre;
 }
 
 /* Window controls */
