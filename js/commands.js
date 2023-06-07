@@ -62,6 +62,7 @@ COMMAND_LIST = [
   '<span class="command">channel</span>        Show my Channel',
   '<span class="command">date</span>           Display the actual date',
   '<span class="command">projects</span>       View some of my projects',
+  '<span class="command">whoami</span>         View some of my whoami',
   '<span class="command">history</span>        Show command history',
   '<span class="command">email</span>          Feel free to reach out',
   '<span class="command">banner</span>         Display the header',
@@ -96,7 +97,9 @@ DIRECTORIES = [
 "<br>"
 ]
 
-
+WHOAMI = [
+"Dell",
+]
 
 EMAIL_INFO = [
   "                 ",

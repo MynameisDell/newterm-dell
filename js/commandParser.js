@@ -66,6 +66,10 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(DIRECTORIES, 80);
       break;
+    case "whoami":
+      commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
+      renderMultipleLines(WHOAMI, 80);
+      break;
     case 'date':
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       getDate();
