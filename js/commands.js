@@ -1,4 +1,4 @@
-  const TWITTER = "https://twitter.com/Dell061297";
+const TWITTER = "https://twitter.com/Dell061297";
 const LINKEDIN = "https://www.linkedin.com/in/quangg-quangg-26ab45150/";
 const TELEGRAM = "https://t.me/MynameisDell/";
 const REPO = "https://dell-dusky.vercel.app/";
@@ -40,8 +40,7 @@ const ABOUT = [
 ];
 
 const WHOAMI = [
-  "<br>",
-  "Dell",
+  "Dell"
 ];
 
 SOCIAL = [
