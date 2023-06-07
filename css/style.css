@@ -3,7 +3,7 @@
   --background: #222222;
   --primaryTextColor: #e5e5e5;
   --secundaryTextColor: #e5e512;
-  --highlightTextColor: "<span class='red'>MynameisDell@</span><span class='green'>Terminal</span><span class='yellow'>:~$</span>";
+  --highlightTextColor: "<span class='red'>MynameisDell@</span>Terminal";
   --white: #fff;
   --baseDirectory: "MynameisDell@Terminal:~$";
   --windowControlsColor: #ddd;
@@ -62,14 +62,6 @@ b {
 
 .highlight-text-color .red {
   color: red;
-}
-
-.highlight-text-color .green {
-  color: lime;
-}
-
-.highlight-text-color .yellow {
-  color: yellow;
 }
 
 /* Window controls */
