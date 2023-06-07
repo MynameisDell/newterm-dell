@@ -59,7 +59,7 @@ COMMAND_LIST = [
   "<br>",
   '<span class="command">about</span>          Learn more about me',
   '<span class="command">social</span>         Display social networks',
-  '<span class="command">chanel</span>         Show my Channel',
+  '<span class="command">channel</span>        Show my Channel',
   '<span class="command">date</span>           Display the actual date',
   '<span class="command">projects</span>       View some of my projects',
   '<span class="command">history</span>        Show command history',
