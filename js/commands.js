@@ -39,6 +39,8 @@ const ABOUT = [
   "<br>"
 ];
 
+const WHOAMI = "Dell";
+
 
 SOCIAL = [
   "<br>",
@@ -62,6 +64,7 @@ COMMAND_LIST = [
   '<span class="command">channel</span>        Show my Channel',
   '<span class="command">date</span>           Display the actual date',
   '<span class="command">projects</span>       View some of my projects',
+  '<span class="command">whoami</span>         Display your name',
   '<span class="command">history</span>        Show command history',
   '<span class="command">email</span>          Feel free to reach out',
   '<span class="command">banner</span>         Display the header',
@@ -111,12 +114,15 @@ SUDO = [
 ]
 
 CHANNEL_INFO = [
-  "<br>",
-  "<strong>Check out my other Channel:</strong>",
-  "     <a href='" + REPO + "' target='_blank'>Channel</a>",
-  "<br>",
-];
-
+  "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
+  "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
+  "                                                  ",
+  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea, to pay quickly in Vietnam</strong>",
+  "Working as a programmer for a foreign company.",
+  "                                               ",
+  "<strong>Currently doing many jobs to earn a living, in which going to other people is a side job.</strong>",
+  "<br>"
+]
 
 MOBILE_CHANNEL_INFO = [
   "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
