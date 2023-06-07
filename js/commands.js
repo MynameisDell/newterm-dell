@@ -39,9 +39,9 @@ const ABOUT = [
   "<br>"
 ];
 
-const WHOAMI = [
-  "Dell",
-];
+  const commands: Map<string, string> = new Map<string, string>();
+  
+  commands.set("whoami", "root");
 
 SOCIAL = [
   "<br>",
