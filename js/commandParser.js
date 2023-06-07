@@ -74,12 +74,12 @@ function processCommand(command) {
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       renderMultipleLines(SUDO, 80);
       break;
-    case "education":
+    case "channel":
       commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
       if (mql.matches) {
-        renderMultipleLines(MOBILE_EDUCATION_INFO, 80);
+        renderMultipleLines(MOBILE_CHANNEL_INFO, 80);
       } else {
-        renderMultipleLines(EDUCATION_INFO, 80);
+        renderMultipleLines(CHANNEL_INFO, 80);
       }
       break;
     case "pwd":

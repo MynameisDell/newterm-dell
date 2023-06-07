@@ -59,7 +59,7 @@ COMMAND_LIST = [
   "<br>",
   '<span class="command">about</span>          Learn more about me',
   '<span class="command">social</span>         Display social networks',
-  '<span class="command">education</span>      Show my education',
+  '<span class="command">chanel</span>         Show my Channel',
   '<span class="command">date</span>           Display the actual date',
   '<span class="command">projects</span>       View some of my projects',
   '<span class="command">history</span>        Show command history',
@@ -110,7 +110,7 @@ SUDO = [
 "                                                                "
 ]
 
-EDUCATION_INFO = [
+CHANNEL_INFO = [
   "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
   "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
   "                                                  ",
@@ -121,7 +121,7 @@ EDUCATION_INFO = [
   "<br>"
 ]
 
-MOBILE_EDUCATION_INFO = [
+MOBILE_CHANNEL_INFO = [
   "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
   "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
   "<br>",
