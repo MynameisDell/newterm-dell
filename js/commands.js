@@ -39,8 +39,8 @@ const ABOUT = [
   "<br>"
 ];
 
-  const WHOAMI = [
-    "Dell"
+const WHOAMI = [
+  "Dell",
 ];
 
 SOCIAL = [
