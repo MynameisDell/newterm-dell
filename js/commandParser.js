@@ -71,8 +71,8 @@ function processCommand(command) {
       renderMultipleLines(WHOAMI, 80);
       break;
     case 'pwd':
-      addLine('localhost/sujay/terminal', 'color3', 0);
-      break;
+      commandIndex = addCommandToHistory(args,comandHistory, commandIndex);
+      renderMultipleLines(PWD, 80);
     case 'date':
       commandIndex = addCommandToHistory(args, comandHistory, commandIndex);
       getDate();

@@ -117,6 +117,11 @@ WHOAMI = [
  "                 __.-'      ^",
 ]
 
+PWD = [
+  "<br>",
+  "localhost/root/terminal",
+]
+
 EMAIL_INFO = [
   "                 ",
   "✉️ " + "<a href=mailto:" + EMAIL + ">" + EMAIL +"</a>",
