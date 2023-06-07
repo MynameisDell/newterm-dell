@@ -1,7 +1,7 @@
 /* :root */
 :root {
-  --background: #123;
-  --primaryTextColor: "salmon";
+  --background: #666666;
+  --primaryTextColor: #e5e5e5;
   --secundaryTextColor: #e5e512;
   --highlightTextColor: #0fa8cd;
   --white: #fff;
@@ -15,7 +15,7 @@
 
 /* Global styles */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;x
 }
 
 body {
