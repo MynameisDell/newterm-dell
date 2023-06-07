@@ -138,7 +138,7 @@ TERMINAL_INFO = [
 'As a passionate user and love the Linux operating system.',
 'Especially the terminal.',
 'So I came up with the idea to develop my personal website terminal style.',
-"For a list of available commands, type <span class=\"command\">'help'</span>."
+"For a list of available commands, type <span class=\"command\">'help'</span>.",
 "Version (4.0)",
 
 ]
