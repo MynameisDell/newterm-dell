@@ -126,12 +126,14 @@ MOBILE_CHANNEL_INFO = [
   "Ranked good in Accounting Faculty", 
   "majoring in Accounting and Auditing",
   "<br>",
-  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea",
+  "<strong>Used to work at Lotte Mart Corporation",
+  "the owner of Korea",
   "to pay quickly in Vietnam</strong>",
-  "Working as a programmer for a foreign company",
+  "Become a programmer",
+  "and collaborators for foreign companies",
   "<br>",
-  "<strong>Currently doing many jobs to earn a living",
-  "in which going to other people is a side job</strong>",
+  "<strong>Current job.",
+  "Clinging to the family</strong>",
   "<br>"
 ]
 
