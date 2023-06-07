@@ -111,15 +111,12 @@ SUDO = [
 ]
 
 CHANNEL_INFO = [
-  "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
-  "Ranked good in Accounting Faculty, majoring in Accounting and Auditing",
-  "                                                  ",
-  "<strong>Used to work at Lotte Mart Corporation, the owner of Korea, to pay quickly in Vietnam</strong>",
-  "Working as a programmer for a foreign company.",
-  "                                               ",
-  "<strong>Currently doing many jobs to earn a living, in which going to other people is a side job.</strong>",
-  "<br>"
-]
+  "<br>",
+  "<strong>Check out my other Channel:</strong>",
+  "     <a href='" + REPO + "' target='_blank'>Channel</a>",
+  "<br>",
+];
+
 
 MOBILE_CHANNEL_INFO = [
   "<br><strong>Studied at Ba Ria - Vung Tau University</strong>",
