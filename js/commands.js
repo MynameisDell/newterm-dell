@@ -42,10 +42,10 @@ const ABOUT = [
 
 SOCIAL = [
   "<br>",
-  'twitter        <a href="' + TWITTER + '" target="_blank">twitter/' + USERNAME + '</a>',
-  'linkedin       <a href="' + LINKEDIN + '" target="_blank">linkedin/' + USERNAME + "</a>",
-  'telegram       <a href="' + TELEGRAM + '" target="_blank">telegram/' + USERNAME + '</a>',
-  'repo           <a href="' + REPO + '" target="_blank">repo click' + USERNAME + "</a>",
+  'twitter        <a href="' + TWITTER + '" target="_blank">twitter click/' + USERNAME + '</a>',
+  'linkedin       <a href="' + LINKEDIN + '" target="_blank">linkedin click/' + USERNAME + "</a>",
+  'telegram       <a href="' + TELEGRAM + '" target="_blank">telegram click/' + USERNAME + '</a>',
+  'repo           <a href="' + REPO + '" target="_blank">repo click/' + USERNAME + "</a>",
   "<br>"
 ];
 
