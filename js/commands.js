@@ -192,7 +192,7 @@ TERMINAL_INFO_MOBILE = [
   "For a list of available commands,", 
   "type <span class=\"command\">'help'</span>.",
   "                                          ",
-  "Version (4.0)",
+  "Version (4.0)  <img src='img/man.png' alt='Your Image'width='100' height='50'>",
   "                                          "
   ]
 
