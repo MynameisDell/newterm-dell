@@ -6,7 +6,6 @@
   --highlightTextColor: #FF6600;
   --white: #fff;
   --baseDirectory: "MynameisDell@Terminal:~$";
-  --additionalText: "quangne";
   --windowControlsColor: #ddd;
   --windowControlsHoverColor: #aaa;
   --windowControlsContentHoverColor: #fff;
@@ -151,13 +150,6 @@ b {
 #liner::before {
   color: var(--highlightTextColor);
   content: var(--baseDirectory);
-  float: left;
-}
-
-#additionalText {
-  float: right;
-  color: var(--secundaryTextColor);
-  text-shadow: 0 0 5px var(--secundaryTextColor);
 }
 
 @keyframes show {
