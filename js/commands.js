@@ -40,6 +40,9 @@ const ABOUT = [
   "𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲",
   "                                        ",
   "<img src='img/lan.png' alt='Your Image'>",
+  "                                         ",
+  "𝗠𝘆 𝗚𝗶𝘁𝗵𝘂𝗯 𝗦𝘁𝗮𝘁𝘀",
+  "<img src='img/stat.png' alt='Your Image'>",
   "<br>"
 ];
 
