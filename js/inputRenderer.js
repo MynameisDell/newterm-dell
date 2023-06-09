@@ -160,18 +160,3 @@ function isArrowKey(key) {
 function alert(txt) {
   console.log(txt);
 }
-
-function updateTime() {
-      var currentTime = new Date();
-      var hours = currentTime.getHours();
-      var minutes = currentTime.getMinutes();
-      var seconds = currentTime.getSeconds();
-
-      var formattedTime = hours + ":" + minutes + ":" + seconds;
-
-      document.documentElement.style.setProperty('--currentTime', formattedTime);
-
-      setTimeout(updateTime, 1000);
-    }
-
-    updateTime();
