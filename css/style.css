@@ -150,7 +150,7 @@ b {
 
 #liner::before {
   color: var(--highlightTextColor);
-  content: var(--baseDirectory);
+  content: var(--baseDirectory) " " var(--currentTime);
 }
 
 @keyframes show {
