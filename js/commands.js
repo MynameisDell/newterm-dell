@@ -36,6 +36,9 @@ const ABOUT = [
   "                             ",
   "                             ",
   "You can find me through social networks: 💫",
+  "                                            ",
+  "𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲"
+  "<img src='href="img/man.png"' alt='Your Image'>",
   "<br>"
 ];
 
