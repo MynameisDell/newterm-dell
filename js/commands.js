@@ -42,7 +42,7 @@ const ABOUT = [
   "<img src='img/lan.png' alt='Your Image'>",
   "                                         ",
   "𝗠𝘆 𝗚𝗶𝘁𝗵𝘂𝗯 𝗦𝘁𝗮𝘁𝘀",
-  "<img src='img/stat.png' alt='Your Image'>",
+  "<img src='img/stat.png' alt='Your Image'width='200' height='150'>",
   "<br>"
 ];
 
