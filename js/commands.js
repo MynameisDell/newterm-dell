@@ -74,7 +74,6 @@ COMMAND_LIST = [
   '<span class="command">history</span>        Show command history',
   '<span class="command">email</span>          Feel free to reach out',
   '<span class="command">banner</span>         Display the header',
-  '<span class="command">theme</span>          Change the theme of the terminal.',
   '<span class="command">clear | cls</span>    Clear terminal',
   '<span class="command">echo</span>           Print any give string',
   '<span class="command">ls</span>             List directory content',
@@ -223,16 +222,6 @@ const MOBILE_BANNER = [
 "         \\ `\\___\\''\\ \\_\\ \\____/\\ \\_\\ \\__/.\\_\\    ",
 "          `\\/__/   \\/_/\\/___/  \\/_/\\/__/\\/_/    ",
 ];
-
-// Danh sách các theme
-const THEMES = [
-  "default",
-  "dark",
-  "light",
-  "blue",
-  "green"
-];
-
 
 // "   ____    _       ___   __     _               ",
 // "  / __/___(_)___  / _ | / /__  (_)__ ___ _____  ",
