@@ -420,6 +420,82 @@ function handleArrowUpKeyPress(event) {
   }
 }
 
+// Hàm hiển thị danh sách theme
+function displayThemeList() {
+  const themeList = ['Theme 1', 'Theme 2', 'Theme 3']; // Danh sách các theme
+
+  // Hiển thị danh sách theme
+  for (let i = 0; i < themeList.length; i++) {
+    renderLine(themeList[i]);
+  }
+  
+  scrollToBottom(); // Cuộn xuống cuối terminal
+}
+
+// Hàm xử lý lệnh "theme"
+function processThemeCommand(command) {
+  const formattedCommand = formatCommand(command); // Chuẩn hóa lệnh
+  const themeName = formattedCommand[1]; // Lấy tên theme từ lệnh nhập vào
+  
+  // Xử lý logic theo tên theme
+  if (themeName === 'Theme 1') {
+    // Xử lý theme 1
+    renderLine('Applied Theme 1');
+  } else if (themeName === 'Theme 2') {
+    // Xử lý theme 2
+    renderLine('Applied Theme 2');
+  } else if (themeName === 'Theme 3') {
+    // Xử lý theme 3
+    renderLine('Applied Theme 3');
+  } else {
+    renderLine('Theme not found'); // Hiển thị thông báo nếu theme không tồn tại
+  }
+  
+  scrollToBottom(); // Cuộn xuống cuối terminal
+}
+
+// Hàm xử lý lệnh nhập vào
+function processUserCommand(command) {
+  const formattedCommand = formatCommand(command); // Chuẩn hóa lệnh
+  const commandName = formattedCommand[0]; // Lấy tên lệnh từ lệnh nhập vào
+
+  // Xử lý logic theo tên lệnh
+  if (commandName === 'theme') {
+    processThemeCommand(command); // Gọi hàm xử lý lệnh "theme"
+  } else if (commandName === 'help') {
+    renderLine('Available commands: theme, help'); // Hiển thị danh sách các lệnh
+    scrollToBottom(); // Cuộn xuống cuối terminal
+  } else {
+    renderLine('Command not found'); // Hiển thị thông báo nếu lệnh không tồn tại
+    scrollToBottom(); // Cuộn xuống cuối terminal
+  }
+}
+
+// Hàm chính để hiển thị banner và xử lý lệnh người dùng
+function main() {
+  // Khởi tạo terminal và đặt vị trí ban đầu của con trỏ
+  init();
+
+  // Hiển thị banner
+  renderBanner();
+
+  // Xử lý sự kiện nhấn phím "Enter" khi nhập lệnh
+  function handleEnterKeyPress(event) {
+    if (event.key === 'Enter') {
+      const inputValue = getInputValue(); // Lấy giá trị đã nhập
+      processUserCommand(inputValue); // Gọi hàm xử lý lệnh nhập vào
+      clearInput(); // Xóa giá trị đã nhập
+    }
+  }
+
+  // Gán sự kiện nhấn phím "Enter" cho ô nhập lệnh
+  inputElement.addEventListener('keyup', handleEnterKeyPress);
+
+  displayThemeList(); // Hiển thị danh sách theme
+}
+
+main(); // Gọi hàm chính để bắt đầu chương trình
+
 
 /**
 
