@@ -224,6 +224,14 @@ const MOBILE_BANNER = [
 "          `\\/__/   \\/_/\\/___/  \\/_/\\/__/\\/_/    ",
 ];
 
+// Danh sách các theme
+const THEMES = [
+  "default",
+  "dark",
+  "light",
+  "blue",
+  "green"
+];
 
 
 // "   ____    _       ___   __     _               ",
