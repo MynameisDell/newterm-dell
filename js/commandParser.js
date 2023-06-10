@@ -232,6 +232,41 @@ function formatTime(date) {
   return hours + ":" + minutes + ":" + seconds;
 }
 
+// Function to display the list of themes
+function displayThemes() {
+  const themeList = THEMES.join(", ");
+  renderMultipleLines([
+    createLine(`Available themes: ${themeList}`, "output"),
+    createLine("To change the theme, use the 'setTheme' command followed by the theme name.", "output")
+  ]);
+}
+
+// Function to set the theme
+function setTheme(theme) {
+  // Check if the theme is valid
+  if (THEMES.includes(theme)) {
+    // Set the theme in your application (replace this with your actual theme setting logic)
+    // Example: document.body.className = theme;
+
+    // Display a success message
+    renderLine(`Theme set to: ${theme}`, "output");
+  } else {
+    // Display an error message if the theme is not valid
+    renderLine(`Invalid theme. Available themes: ${THEMES.join(", ")}`, "error");
+  }
+}
+
+// Function to process the "theme" command
+function processThemeCommand(args) {
+  if (args.length === 1) {
+    displayThemes();
+  } else if (args.length === 2) {
+    setTheme(args[1]);
+  } else {
+    renderLine("Invalid command. Usage: theme [themeName]", "error");
+  }
+}
+
 /**
  * Replaces multiple spaces in a string with double non-breaking spaces.
  * @param {string} text - The text to format.
